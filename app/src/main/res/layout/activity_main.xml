@@ -8,6 +8,7 @@
     android:background="@drawable/gradient_bg">
 
     <RelativeLayout
+
         android:id="@+id/mainContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -112,7 +113,7 @@
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:src="@drawable/sunrise"
-                        android:tint="@color/white" />
+                        app:tint="#FFFFFF"/>
 
                     <Space
                         android:layout_width="wrap_content"
@@ -174,7 +175,7 @@
                     <ImageView android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:src="@drawable/wind"
-                        android:tint="#FFFFFF"/>
+                        app:tint="#FFFFFF"/>
                     <Space android:layout_width="wrap_content"
                         android:layout_height="5dp"/>
                     <TextView android:layout_width="wrap_content"
@@ -206,7 +207,7 @@
                     <ImageView android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:src="@drawable/pressure"
-                        android:tint="#FFFFFF"/>
+                        app:tint="#FFFFFF"/>
                     <Space android:layout_width="wrap_content"
                         android:layout_height="5dp"/>
                     <TextView android:layout_width="wrap_content"
@@ -230,7 +231,7 @@
                     <ImageView android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:src="@drawable/humidity"
-                        android:tint="#FFFFFF"/>
+                        app:tint="#FFFFFF"/>
                     <Space android:layout_width="wrap_content"
                         android:layout_height="5dp"/>
                     <TextView android:layout_width="wrap_content"
@@ -253,11 +254,12 @@
                     android:padding="8dp"
                     android:background="#3CF1EBF1">
 
+
                     <ImageView
                         android:layout_width="25dp"
                         android:layout_height="20dp"
                         android:src="@drawable/info"
-                        android:tint="#FFFFFF" />
+                        app:tint="#FFFFFF" />
                     <Space android:layout_width="wrap_content"
                         android:layout_height="5dp"/>
                     <TextView android:layout_width="wrap_content"
